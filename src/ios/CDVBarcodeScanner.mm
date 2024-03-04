@@ -166,7 +166,7 @@
       options = command.arguments[0];
     }
 
-    BOOL preferFrontCamera = [options[@"preferFrontCamera"] boolValue];
+    BOOL preferFrontCamera = NO;
     BOOL showFlipCameraButton = [options[@"showFlipCameraButton"] boolValue];
     BOOL showTorchButton = [options[@"showTorchButton"] boolValue];
     BOOL disableAnimations = [options[@"disableAnimations"] boolValue];
